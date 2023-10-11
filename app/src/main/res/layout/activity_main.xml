@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:background="#13816F"
+            android:padding="10sp"
+            android:text="@string/Cabecera1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_height="wrap_content"
+            android:textColorHint="#858282"
+            android:layout_margin="16dp"
+            android:hint="@string/Email_Hint"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:autofillHints="emailAddress"
+            tools:ignore="VisualLintTextFieldSize" />
+        <EditText
+            android:id="@+id/password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autofillHints="password"
+            android:hint="@string/Contraseña_Hint"
+            android:inputType="textPassword"
+            android:minHeight="47dp"
+            android:textColorHint="#494848"
+            android:textSize="16sp"
+            tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck" />
+        <Button
+            android:id="@+id/enterBtnId"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_gravity="center"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="71dp"
+            android:text="@string/Entrar_Botón"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+</layout>

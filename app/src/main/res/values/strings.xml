@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">02_LauraGines_Login</string>
+    <string name="Cabecera1">Práctica 2</string>
+    <string name="Contraseña_Hint">Contraseña</string>
+    <string name="Entrar_Botón">ENTRAR</string>
+    <string name="Email_Hint">Email</string>
+    <string name="Cabecera2"> ViewComponents </string>
+    <string name="Bienvenida"> </string>
+</resources>
